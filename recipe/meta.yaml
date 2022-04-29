@@ -1,5 +1,5 @@
 {% set name = "types-uno-script" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-uno-script-{{ version }}.tar.gz
-  sha256: 28fbbd43a98de52387c75536a4f7e391521bc64c2abae9a7f30d2fe1ffd720df
+  sha256: 0ec3adf5567b289b0e922a3b046593a374206f73a8ed3230a72afc7de5fdb7c2
 
 build:
   number: 0
